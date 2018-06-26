@@ -1,0 +1,283 @@
+html, body{
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 143px 40px 375px 79px auto 322px 76px;
+}
+
+.header {
+  grid-column: 1 / span 6;
+  grid-row: 1 / 2;
+  background-color: rgb(48, 48, 48);
+  position: relative;
+}
+
+
+/* centering main logo using position within parent(.header) and child(#logo) */
+#logo {
+  position: absolute;
+  top: 50%;
+  height: 88px;
+  margin-top: -44px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+#navbar {
+  grid-column: 1 / span 6;
+  grid-row: 2 / 3;
+  transform: scale(1.2);
+}
+
+/*for JS*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*for JS*/
+.sticky + .big-photo {
+  padding-top: 60px;
+}
+
+/*adding .nav prior to ul, styles only this ul section*/
+#navbar ul {
+  background-color: rgb(27,27,27);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  line-height: 40px;
+}
+
+#navbar li {
+  color: rgb(242,242,242);
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  height: 40px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline;
+  padding: 12px 14px; /*store hits top and bottom borders*/
+  cursor: pointer;
+  transition: background-color .5s;
+}
+
+#navbar .li:hover {
+  padding-bottom: 12px;
+}
+
+#navbar #deals:hover {
+  background-color: rgb(158,158,158);
+}
+
+#navbar #hike:hover {
+  background-color: rgb(102,153,51);
+}
+
+#navbar #dive:hover {
+  background-color: rgb(41,85,196);
+}
+
+#navbar #paddle:hover {
+  background-color: rgb(211,108,29);
+}
+
+#navbar #climb:hover {
+  background-color: rgb(216,187,30);
+}
+
+#navbar #cycle:hover {
+  background-color: rgb(179,49,52);
+}
+
+#navbar #snow:hover {
+  background-color: rgb(104,104,104);
+}
+
+#navbar #photo:hover {
+  background-color: rgb(55,158,175);
+}
+
+#store {
+  background-color: rgb(255,140,0);
+}
+
+#store:hover {
+  color: white;
+}
+
+.content {
+  grid-column: 1 / span 6;
+  grid-row: 3 / 4;
+  background-image: url("https://adventurejunkies-theadventurejunk.netdna-ssl.com/wp-content/uploads/HowToTurnOnSkis3.jpg");
+  background-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center 60%;
+}
+
+.title {
+  grid-column: 1 / span 6;
+  grid-row: 4 / 5;
+  background-color: rgb(245,245,245);
+  text-align: center;
+  border-bottom: 3px rgb(104,104,104) solid;
+}
+
+.title h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main {
+  grid-column: 1 / span 6;
+  grid-row: 5 / 6;
+  font-family: 'open sans', sans-serif;
+  color: rgb(128,128,128);
+  padding: 20px 100px;
+}
+
+.main h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+table {
+  width: 100%;
+  table-layout: fixed; /*sets column widths equally*/
+  text-align: center;
+}
+
+th {
+  text-transform: uppercase;
+  height: 42px;
+  background-color: rgb(240,240,240);
+  color: rgb(128,128,128);
+  font-size: 18px;
+}
+
+tr {
+  height: 38px;
+  color: rgb(128,128,128); /*font color*/
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(248,248,248);
+}
+
+#badge{
+  height: 245px;
+  width: 245px;
+}
+
+ul, li {
+  list-style-type: circle;
+}
+
+.link-footer {
+  grid-row: 6;
+  grid-column: 1 / span 6;
+  border-top: 20px solid rgb(51,51,51);
+  background-color: rgb(39,39,39);
+  display: flex; 
+  justify-content: space-between;
+}
+
+.box {
+  border: 1px solid rgb(51,51,51);
+  height: 362px;
+  flex: .5;
+  color: #999999;
+  font-family: 'open sans', sans-serif;
+  font-size: 14px;
+}
+
+.footer-two {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-three,
+.footer-four {
+  flex: 2;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 700px;
+  font-size: 16px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 10px 0px;
+  margin-bottom: 55px;
+  margin-top: 35px;
+  border-bottom: 3px solid #686868;
+  transform: scale(1.1);
+}
+
+.textwidget {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.textwidget p {
+  cursor: pointer;
+}
+
+.footer {
+  grid-column: 1 / span 6;
+  grid-row: 7 / 8;
+  background-color: rgb(28,29,30);
+  display: flex;
+  justify-content: space-around;
+  color: #b3b3b3;
+  font-family: 'open sans', sans-serif;
+  font-size: 12px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.foot {
+  margin-right: 15px;
+}
+
+.foot:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rights {
+  display: flex;
+  justify-items: space-between;
+  color: #808080
+}
+
+#taj {
+  color: #cccccc;
+}
+
+#taj:hover {
+  cursor: pointer;
+}
+

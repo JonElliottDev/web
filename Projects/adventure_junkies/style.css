@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 143px 40px 375px 79px 2300px 362px 76px;
+}
+
+.header {
+  background-color: rgb(48, 48, 48);
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+/* centering main logo using position within parent and child */
+#logo {
+  position: absolute;
+  top: 50%;
+  height: 88px;
+  margin-top: -44px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+/*central navigation*/
+.nav {  
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/*adding .nav prior to ul, styles only this ul section*/
+.nav ul {
+  background-color: rgb(27,27,27);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  line-height: 40px;
+}
+
+.nav li {
+  color: rgb(242,242,242);
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  height: 40px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline;
+  padding: 12px 7px; /*store hits top and bottom borders*/
+}
+
+#store {
+  background-color: rgb(255,140,0);
+}
+
+.big-photo {
+  background-image: url(images/HowToTurnOnSkis3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 60%;
+}
+
+.title {
+  background-color: rgb(245,245,245);
+  height: 79px;
+  text-align: center;
+  border-bottom: 3px rgb(104,104,104) solid;
+}
+
+.title h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main {
+  border-bottom: 1px black dotted;
+  font-family: 'open sans', sans-serif;
+  color: rgb(128,128,128);
+  padding: 20px 100px;
+}
+
+.main h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+table {
+  width: 100%;
+  table-layout: fixed; /*sets column widths equally*/
+  text-align: center;
+}
+
+th {
+  text-transform: uppercase;
+  height: 42px;
+  background-color: rgb(240,240,240);
+  color: rgb(128,128,128);
+  font-size: 18px;
+}
+
+tr {
+  height: 38px;
+  color: rgb(128,128,128); /*font color*/
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(248,248,248);
+}
+
+#badge{
+  height: 245px;
+  width: 245px;
+}
+
+ul, li {
+  list-style-type: circle;
+}
+
+.link-footer {
+  border-top: 20px solid rgb(51,51,51);
+  background-color: rgb(39,39,39);
+  grid-template: 100% / 10% 40% 20% 20% 10%;
+  display: grid;
+}
+
+.box-a {
+  border: 1px solid white;
+  height: 340px;
+  color: white;
+}
+
+.box-b {
+  border: 1px solid white;
+  color: white;
+}
+.box-c {
+  border: 1px solid white;
+  color: white;
+}
+
+.box-d {
+  border: 1px solid white;
+  color: white;
+}
+
+.box-e {
+  border: 1px solid white;
+  color: white;
+}
+
+
+.footer-image{
+  width: 80%;
+  height: auto;
+}
+
+.footer {
+  border: 1px black dotted;
+  background-color: rgb(28,29,30);
+}
+
