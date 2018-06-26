@@ -1,0 +1,56 @@
+body {
+margin: 0px;
+}
+
+.grid {
+  display: grid;
+  border: 0px;
+  width: auto;
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 60px, 30px, 200px;
+}
+
+header {
+background-color: rgb(48, 48, 48);
+background-color: hsl(160, 0, 45);
+width: 100%;
+height: auto;
+padding: 20px 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  height: 60px;
+  background-color: rgb(27,27,27);
+  text-align: center;
+}
+
+li {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 100%;
+  width: 80px;
+  vertical-align: middle;
+}
+
+#store {
+background-color: orange;
+}
+
+
+p {
+  color: red;
+  font-family: arial;
+  text-align: center;
+}
+
+.bigphoto {
+height: 100px;
+width: 100%;
+}
