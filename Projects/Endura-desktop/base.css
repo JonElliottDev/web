@@ -1,0 +1,91 @@
+html, body {
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* debugging*/
+
+
+
+/* end of debugging */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  font-size: .8em;
+}
+
+figure {
+  margin: 0;
+}
+
+.global-header {
+  background-color: #252528;
+}
+
+.fa-shopping-cart {
+  color: white;
+}
+
+body {
+  font-family: 'Black Han Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h4 {
+  color: rgb(170,170,180);
+  font-size: .5em;
+}
+
+h3 {
+  font-size: .7em;
+}
+
+h6 {
+  font-size: .5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Email-Link {
+  text-decoration: underline;
+  text-transform: lowercase;
+  text-color: initial;
+}
+
+.divider {
+  padding: 0px 5px;
+  color: #ccc
+}
+
+input {
+  background-color: transparent;
+  padding: 3px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 2px;
+  font-family: "GTWalsheim", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}

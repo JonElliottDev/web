@@ -1,0 +1,184 @@
+.global-page-head {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+}
+
+.global-page-head h1 {
+  margin: 10px 0px 60px 0px;
+}
+
+.global-header > figure { 
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 100%;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav > ul {
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin: 0px 5px;
+}
+
+.tiny-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 160px;
+}
+
+.tiny-nav > .fa-shopping-cart,
+.tiny-nav > img {
+  padding-left: 10px;
+}
+
+nav > input {
+  width: 50%;
+}
+
+ul.breadcrumb {
+  padding: 0px;
+  margin: 40px 0px;
+}
+
+ul.breadcrumb li {
+  margin: 0px;
+}
+
+ul.breadcrumb li a {
+  color: red;
+}
+
+ul.breadcrumb li:last-child a {
+  color: grey;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  text-decoration: none;
+}
+
+.showcase {
+  background-color: rgb(238,238,238);
+}
+
+.showcase-photo {
+  height: 450px;
+  background-image: url('images/Endura_Directors1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase-header {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+  margin-bottom: 20px;
+}
+
+.grid-thumb {
+  width: 32%;
+  height: 360px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(238,238,238);
+}
+
+.grid-thumb > figure {
+  height:66.66%;
+  width: 100%;
+  margin: 0;
+  background-image: url('images/James Ogilvie 1.jpg');
+  background-size: cover;
+}
+
+.grid-thumb-header {
+  height: 33.33%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.stories {
+  width: 110px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid black;
+  line-height: 20px;
+}
+
+footer {
+  padding: 60px 15%;
+  margin-top: 60px;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.global-footer-box {
+  width: 20%;
+  height: auto;
+  line-height: 20px;
+  color: #808080;
+  font-family: "GTWalsheim", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.global-footer-box > h4 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17.5px;
+}
+
+.global-footer-box > div {
+  text-size-adjust: 100%;
+  text-transform: lowercase;
+  font-size: .8em;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+xform {
+  display: flex;  /* placed next to each other but overflowing */
+}
+
+.btn {
+  border: 1px solid white;
+  text-transform: uppercase;
+  background-color: #252528;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-rights {
+  width: auto;
+  height: 20px;
+  color: #808080;
+}

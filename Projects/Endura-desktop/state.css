@@ -1,0 +1,10 @@
+/* state will remain the same if the first state rule is applied to an element more specific than the change state rule */
+
+.showcase:hover,
+.grid-thumb:hover,
+.stories:hover,
+.btn:hover {
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+}
